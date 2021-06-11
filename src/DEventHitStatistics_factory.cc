@@ -20,7 +20,7 @@
 
 using namespace std;
 
-#include "DEventHitStatistics_factory.h"
+#include "HDDM/DEventHitStatistics_factory.h"
 
 using namespace jana;
 

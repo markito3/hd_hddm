@@ -33,7 +33,7 @@ using namespace std;
 #include "PAIR_SPECTROMETER/DPSGeometry.h"
 
 #include <DVector2.h>
-#include <DEventSourceHDDM.h>
+#include <HDDM/DEventSourceHDDM.h>
 #include <FDC/DFDCGeometry.h>
 #include <FCAL/DFCALGeometry.h>
 #include <FCAL/DFCALHit.h>
