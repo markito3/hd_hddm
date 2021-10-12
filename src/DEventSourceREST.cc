@@ -16,7 +16,7 @@
 #include <DANA/DStatusBits.h>
 
 #include <DVector2.h>
-#include <DEventSourceREST.h>
+#include <HDDM/DEventSourceREST.h>
 
 //----------------
 // Constructor

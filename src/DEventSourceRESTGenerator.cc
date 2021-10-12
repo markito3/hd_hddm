@@ -8,8 +8,8 @@
 #include <string>
 using std::string;
 
-#include "DEventSourceRESTGenerator.h"
-#include "DEventSourceREST.h"
+#include "HDDM/DEventSourceRESTGenerator.h"
+#include "HDDM/DEventSourceREST.h"
 
 //---------------------------------
 // Description

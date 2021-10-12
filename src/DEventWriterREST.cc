@@ -1,5 +1,5 @@
 
-#include "DEventWriterREST.h"
+#include "HDDM/DEventWriterREST.h"
 
 #include <DANA/DApplication.h>
 #include <JANA/JCalibration.h>

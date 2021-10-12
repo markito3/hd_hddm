@@ -1,4 +1,4 @@
-#include "DEventWriterHDDM.h"
+#include "HDDM/DEventWriterHDDM.h"
 
 #include <DANA/DApplication.h>
 #include <JANA/JCalibration.h>

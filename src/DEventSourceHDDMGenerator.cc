@@ -9,8 +9,8 @@
 #include <string>
 using std::string;
 
-#include "DEventSourceHDDMGenerator.h"
-#include "DEventSourceHDDM.h"
+#include "HDDM/DEventSourceHDDMGenerator.h"
+#include "HDDM/DEventSourceHDDM.h"
 
 //---------------------------------
 // Description

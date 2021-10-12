@@ -1,9 +1,9 @@
 #include <JANA/JEventLoop.h>
 using namespace jana;
 
-#include "DEventWriterREST_factory.h"
-#include "DEventWriterHDDM_factory.h"
-#include "DEventHitStatistics_factory.h"
+#include "HDDM/DEventWriterREST_factory.h"
+#include "HDDM/DEventWriterHDDM_factory.h"
+#include "HDDM/DEventHitStatistics_factory.h"
 
 jerror_t HDDM_init(JEventLoop *loop)
 {
