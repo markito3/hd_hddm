@@ -1,0 +1,4 @@
+#!/bin/bash
+file_to_get=$1
+dir_to_go=$2
+cp -v ~/halld_recon-independent_halld_sim/halld_recon-4.29.1/Linux_CentOS7-x86_64-gcc4.8.5-cntr/include/$file_to_get ../include/$dir_to_go
