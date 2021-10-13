@@ -10,7 +10,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 add_subdirectory(xml)
 file(GLOB SOURCES src/*.cc)
 add_library(HDDM STATIC ${SOURCES})
-include_directories(include $ENV{JANA_HOME}/include $ENV{ROOTSYS}/include $ENV{XERCES_INCLUDE} $ENV{HDDM_HOME}/include $ENV{CCDB_HOME}/include )
+include_directories(include $ENV{JANA_HOME}/include $ENV{ROOTSYS}/include $ENV{XERCES_INCLUDE} $ENV{HDDM_HOME}/include $ENV{CCDB_HOME}/include)
+add_dependencies(HDDM hddm_derived_sources)
 install(
   TARGETS HDDM
   DESTINATION lib
