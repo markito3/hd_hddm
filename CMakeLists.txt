@@ -11,3 +11,7 @@ add_subdirectory(xml)
 file(GLOB SOURCES src/*.cc)
 add_library(HDDM STATIC ${SOURCES})
 include_directories(include $ENV{JANA_HOME}/include $ENV{ROOTSYS}/include $ENV{XERCES_INCLUDE} $ENV{HDDM_HOME}/include $ENV{CCDB_HOME}/include )
+install(
+  TARGETS HDDM
+  DESTINATION lib
+  )
