@@ -1,1 +1,5 @@
 build
+.clone_done
+.cmake_done
+.make_done
+.install_done
