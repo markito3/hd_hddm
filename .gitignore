@@ -3,3 +3,5 @@ build
 .cmake_done
 .make_done
 .install_done
+lib
+libhddm_prereqs_version.xml
