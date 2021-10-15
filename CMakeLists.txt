@@ -12,10 +12,13 @@ file(GLOB SOURCES src/*.cc)
 set(DERIVED_SOURCES
   ${CMAKE_SOURCE_DIR}/src/hddm_s++.cpp
   ${CMAKE_SOURCE_DIR}/src/hddm_r++.cpp
+  ${CMAKE_SOURCE_DIR}/src/hddm_mc_s++.cpp
+  ${CMAKE_SOURCE_DIR}/src/hddm_s.c
+  ${CMAKE_SOURCE_DIR}/src/hddm_r.c
+  ${CMAKE_SOURCE_DIR}/src/hddm_mc_s.c
   )
 add_library(HDDM STATIC ${SOURCES} ${DERIVED_SOURCES})
-target_link_libraries(HDDM bar)
-include_directories(include ${CMAKE_SOURCE_DIR}/include/HDDM $ENV{JANA_HOME}/include $ENV{ROOTSYS}/include $ENV{XERCES_INCLUDE} $ENV{HDDM_HOME}/include $ENV{CCDB_HOME}/include)
+include_directories(include ${CMAKE_SOURCE_DIR}/include/HDDM $ENV{JANA_HOME}/include $ENV{ROOTSYS}/include $ENV{XERCES_INCLUDE} $ENV{HDDM_HOME}/include $ENV{CCDB_HOME}/include /usr/include/tirpc)
 target_compile_options(
   HDDM
   PUBLIC -fPIC
