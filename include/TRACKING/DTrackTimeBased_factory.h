@@ -24,7 +24,7 @@
 #include "DMCThrown.h"
 #include "DTrackFitter.h"
 #include "DTrackTimeBased.h"
-#include "DReferenceTrajectory.h"
+#include "TRACKING/DReferenceTrajectory.h"
 
 class DTrackWireBased;
 class DTrackHitSelector;
